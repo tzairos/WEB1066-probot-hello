@@ -1,6 +1,5 @@
 # https://hub.docker.com/_/node/
 FROM node:8-onbuild
-RUN apk update && apk add python make g++
 # use debug to troubleshoot
 ENV LOG_LEVEL=error
 # Required env settings determined by GitHub App
